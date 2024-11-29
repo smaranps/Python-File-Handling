@@ -1,0 +1,17 @@
+from tkinter import *
+root = Tk()
+root.title("Calculator")
+root.geometry("400x400")
+
+button1 = Button(root, text="1",)
+button2 = Button(root, text="2")
+button3 = Button(root, text="3")
+button4 = Button(root, text="4" )
+button5 = Button(root, text="5")
+button6 = Button(root, text="6" )
+button7 = Button(root, text="7")
+button8 = Button(root, text="8" )
+button9 = Button(root, text="9" )
+button0 = Button(root, text="0")
+button_add = Button(root, text="+")
+root.mainloop()
